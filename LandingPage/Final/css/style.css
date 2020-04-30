@@ -11,7 +11,6 @@ body {
   font-size: 16px;
   line-height: 1.7;
   color: #777;
-  background: radial-gradient(ellipse at bottom, #1b2735, #090a0f);
 }
 
 .tilted {
@@ -23,50 +22,13 @@ body {
 
 .header {
   height: 100vh;
-  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(126, 213, 111, 0.801)), to(rgba(49, 100, 131, 0.8))), url("../img/back.jpg");
-  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.801), rgba(49, 100, 131, 0.8)), url("../img/back.jpg");
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(140, 148, 139, 0.801)), to(rgba(49, 100, 131, 0.8))), url("../img/background.jpg");
+  background-image: linear-gradient(to right bottom, rgba(140, 148, 139, 0.801), rgba(49, 100, 131, 0.8)), url("../img/background.jpg");
   background-size: cover;
   background-position: top;
   position: relative;
   -webkit-clip-path: polygon(0 0, 100% 0, 50% 100%, 0 27%);
           clip-path: polygon(0 0, 100% 0, 50% 100%, 0 27%);
-  -webkit-animation-timing-function: ease-out;
-          animation-timing-function: ease-out;
-  -webkit-transition-duration: 3s;
-  transition-duration: 3s;
-  -webkit-transition-property: -webkit-transform;
-  transition-property: -webkit-transform;
-  transition-property: transform;
-  transition-property: transform, -webkit-transform;
-}
-
-.logo-box {
-  position: absolute;
-  top: 120px;
-  left: -20%;
-  -webkit-animation-name: moveInRight;
-          animation-name: moveInRight;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
-  -webkit-animation-timing-function: ease-out;
-          animation-timing-function: ease-out;
-  -webkit-transition-duration: 1s;
-  transition-duration: 1s;
-  -webkit-transition-property: -webkit-transform;
-  transition-property: -webkit-transform;
-  transition-property: transform;
-  transition-property: transform, -webkit-transform;
-}
-
-.logo-box:active {
-  -webkit-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
-
-.logo {
-  height: 100px;
-  border-radius: 50%;
-  cursor: pointer;
 }
 
 .text-box {
@@ -262,15 +224,5 @@ body {
           animation: moveInButton .5s ease-out .75s;
   -webkit-animation-fill-mode: backwards;
           animation-fill-mode: backwards;
-}
-
-.decoline {
-  position: absolute;
-}
-
-.toggle {
-  position: fixed;
-  top: 80%;
-  left: 47%;
 }
 /*# sourceMappingURL=style.css.map */
